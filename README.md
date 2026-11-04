@@ -1,5 +1,3 @@
-# wazuh-soc-lab
-Laboratório prático de implementação do SIEM Wazuh.
 # 🛡️ Wazuh SOC Home Lab
 
 **Language:** [English](#english) | [Português](#português)
