@@ -32,7 +32,7 @@ During the implementation, several issues were encountered and resolved. This se
    - *Solution:* Configured Port Forwarding in VirtualBox (Host 8443 -> Guest 443) and adjusted browser network settings.
 
 4. **Update Check Error (`ECONNREFUSED`):**
-   - *Note:* The dashboard shows an `ECONNREFUSED` error when trying to check for updates. This is due to VirtualBox NAT network restrictions in the lab environment. It does not affect the main API communication (Status: Online).
+   - *Note:* The dashboard shows an `ECONNREFUSED` error when trying to check for updates. This is due to VirtualBox NAT network restrictions in the lab environment. It does not affect the main API communication.
 
 ### Evidence (Screenshots)
 *(Click on the images to enlarge)*
@@ -42,8 +42,7 @@ During the implementation, several issues were encountered and resolved. This se
 | 1 | VM Hardware Settings | ![VM Settings](screenshots/01-vm-settings.png) |
 | 2 | Installation Completed | ![Installation](screenshots/02-install-completed.png) |
 | 3 | Dashboard Overview | ![Dashboard](screenshots/03-dashboard-overview.png) |
-| 4 | API Connection Online | ![API Connection](screenshots/04-api-connection-online.png) |
-| 5 | Services Running | ![Terminal Status](screenshots/05-terminal-status.png) |
+| 4 | Services Running | ![Terminal Status](screenshots/04-terminal-status.png) |
 
 ### Roadmap
 - [x] Wazuh All-in-One installation.
@@ -81,7 +80,7 @@ Durante a implementação, alguns obstáculos foram encontrados e resolvidos. Es
    - *Solução:* Configurado Redirecionamento de Portas (Port Forwarding) no VirtualBox (Host 8443 -> Guest 443) e ajustadas as configurações de rede do navegador.
 
 4. **Erro na Checagem de Atualizações (`ECONNREFUSED`):**
-   - *Nota:* O dashboard exibe um erro `ECONNREFUSED` ao tentar verificar atualizações. Isso ocorre devido às restrições de rede NAT do VirtualBox no ambiente de laboratório. Não afeta a comunicação principal com a API (Status: Online).
+   - *Nota:* O dashboard exibe um erro `ECONNREFUSED` ao tentar verificar atualizações. Isso ocorre devido às restrições de rede NAT do VirtualBox no ambiente de laboratório. Não afeta a comunicação principal com a API.
 
 ### Evidências (Prints)
 *(Clique nas imagens para ampliar)*
@@ -91,8 +90,7 @@ Durante a implementação, alguns obstáculos foram encontrados e resolvidos. Es
 | 1 | Configuração da VM | ![Configuração da VM](screenshots/01-vm-settings.png) |
 | 2 | Instalação Concluída | ![Instalação](screenshots/02-install-completed.png) |
 | 3 | Visão do Dashboard | ![Dashboard](screenshots/03-dashboard-overview.png) |
-| 4 | API Online | ![Conexão API](screenshots/04-api-connection-online.png) |
-| 5 | Serviços Ativos | ![Status Terminal](screenshots/05-terminal-status.png) |
+| 4 | Serviços Ativos | ![Status Terminal](screenshots/04-terminal-status.png) |
 
 ### Roadmap
 - [x] Instalação do Wazuh All-in-One.
